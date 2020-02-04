@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif, serif;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.layout-block {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+main h2 {
+    font-size: 30px;
+    color: #445161;
+    margin-bottom: 30px;
+}
+
+main h3 {
+    font-size: 24px;
+    color: #445161;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #445162;
+    color: #fff;
+    padding: 50px;
+}
+
+header .text-header {
+    float: left;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+header .opportunities {
+    font-size: 20px;
+}
+
+header .opportunities li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+header .opportunities li::before {
+    color: #fff;
+    display: inline-block;
+    content: '';
+    background: url("images/check_icon.png") no-repeat;
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    line-height: 27px;
+    vertical-align: bottom;
+}
+
+header .image-header {
+    width: 470px;
+    height: 215px;
+    background-color: #fff;
+    float: right;
+}
+
+main .about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main .about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333333;
+    line-height: 1.4;
+}
+
+main .text-about {
+    width: 680px;
+    float: left;
+}
+
+main .image-about {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    float: right;
+}
+
+main .dignity-product-background {
+    background-color: #f5f5f5;
+}
+
+main .dignity-product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main .dignity-product h2 {
+    text-align: center;
+}
+
+main .dignity-product div {
+    float: left;
+    width: 580px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+main .dignity-product p {
+    margin-left: 42px;
+    margin-bottom: 30px;
+    position: relative;
+    color: #333333;
+    line-height: 1.4;
+}
+
+main .dignity-product p::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: #445161 url("images/plus_icon.png") no-repeat 50% 50%;
+    position: absolute;
+    left: -42px;
+}
+
+main .screenshots {
+    padding: 50px 0;
+}
+
+main .screenshots h2 {
+    text-align: center;
+}
+
+main .screenshots .column {
+    width: 580px;
+    box-sizing: border-box;
+    float: left;
+}
+
+main .screenshots .column > div {
+    margin-bottom: 30px;
+}
+
+main .screenshots .column .image-screenshots {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+}
+
+main .screenshots .column .text-screenshots {
+    width: 380px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    color: #333333;
+    line-height: 1.4;
+}
+
+main .screenshots .column .image-screenshots,
+main .screenshots .column .text-screenshots {
+    float: left;
+}
+
+main .background-reviews {
+    background-color: #f5f5f5;
+}
+
+main .reviews {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main .reviews h2 {
+    text-align: center;
+}
+
+main .reviews .column1 {
+    width: 580px;
+    float: left;
+}
+
+main .reviews .column2 {
+    width: 580px;
+    float: left;
+}
+
+main .reviews .comment-block{
+    position: relative;
+}
+
+main .reviews .image-reviews {
+    margin-left: 15px;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #445161;
+}
+
+main .reviews .column1 .image-reviews {
+    margin-left: 0;
+}
+
+main .reviews .block-text-reviews {
+    width: 460px;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+}
+
+main .reviews .block-text-reviews .triangle {
+    position: absolute;
+    z-index: 1;
+    top: 22px;
+    left: -8px;
+    width: 34px;
+    height: 34px;
+    background-color: #ebebeb;
+    transform: rotate(45deg);
+}
+
+main .reviews .block-text-reviews .text-reviews {
+    position: relative;
+    z-index: 10;
+    font-size: 14px;
+    padding: 15px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+main .reviews .column2 .block-text-reviews {
+    width: 450px;
+    margin-right: 0;
+}
+
+main .reviews .block-text-reviews .comment {
+    line-height: 1.4;
+    font-style: italic;
+    color: #333333;
+}
+
+main .reviews .block-text-reviews .user-name {
+    color: #989898;
+    margin-top: 15px;
+    font-style: normal;
+}
+
+main .buy {
+    padding: 50px 0;
+    color: #fff;
+}
+
+main .buy h2 {
+    text-align: center;
+}
+
+main .buy .blocks-buy {
+    white-space: nowrap;
+    text-align: center;
+}
+
+main .buy .buy-block {
+    background-color: #445162;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 45px;
+}
+
+main .buy .blocks-buy > div:first-child{
+    margin-left: 0;
+}
+
+main .buy .buy-block h3 {
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+}
+
+main .buy .buy-block .price {
+    color: #445162;
+    font-size: 40px;
+    background-color: #fff;
+    border-left: 2px solid #445162;
+    border-right: 2px solid #445162;
+    text-align: center;
+}
+
+main .buy .buy-block ol {
+    padding: 20px 35px;
+    font-size: 14px;
+    line-height: 2;
+    text-align: left;
+}
+
+main .buy .buy-block button {
+    text-align: center;
+    font-size: 18px;
+    color: #445162;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 110px;
+    margin: 20px;
+}
+
+footer .contacts {
+    padding: 50px 0;
+}
+
+footer .background-contacts {
+    background-color: #445162;
+}
+
+footer .contacts h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+footer .contacts .contacts-block {
+    margin: 0 auto;
+    width: 800px;
+    display: block;
+}
+
+footer .contacts .contacts-block .column {
+    float: left;
+}
+
+footer .contacts form {
+    display: inline-block;
+}
+
+footer .contacts form input[type="text"],
+footer .contacts form textarea {
+    display: block;
+    width: 500px;
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer .contacts form textarea {
+    height: 170px;
+    resize: none;
+}
+
+footer .contacts form input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 50px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #445162;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer .contacts .column2 {
+    margin-left: 45px;
+}
+
+footer .contacts .column2 ul {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    list-style: none;
+    line-height: 16px;
+}
+
+footer .contacts .column2 .to-contact-us li {
+    margin-bottom: 20px;
+}
+
+footer .contacts .column2 .to-contact-us li:last-child {
+    margin-bottom: 0;
+}
+
+footer .contacts .column2 .to-contact-us .skype::before {
+    content: '';
+    display: inline-block;
+    line-height: 26px;
+    vertical-align: bottom;
+    margin-right: 5px;
+    width: 26px;
+    height: 26px;
+    background: url("images/skype_icon.png") no-repeat;
+}
+
+footer .contacts .column2 .to-contact-us .icq::before {
+    content: '';
+    display: inline-block;
+    line-height: 26px;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 26px;
+    height: 26px;
+    background: url("images/icq_icon.png") no-repeat;
+}
+
+footer .contacts .column2 .to-contact-us .email::before {
+    content: '';
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 22px;
+    height: 22px;
+    background: url("images/email_icon.png") no-repeat;
+}
+
+footer .contacts .column2 .to-contact-us .phone::before {
+    content: '';
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 23px;
+    height: 23px;
+    background: url("images/phone_icon.png") no-repeat;
+}
+
+footer .contacts .column2 .social {
+    margin-top: 30px;
+}
+
+footer .contacts .column2 .social li {
+    display: inline-block;
+}
+
+footer .contacts .column2 .social .twitter {
+    background: url("images/twitter_icon.png") no-repeat;
+    width: 43px;
+    height: 42px;
+    display: inline-block;
+}
+
+footer .contacts .column2 .social .facebook {
+    background: url("images/facebook_icon.png") no-repeat;
+    width: 43px;
+    height: 42px;
+    display: inline-block;
+}
+
+footer .contacts .column2 .social .linkedin {
+    background: url("images/linkedin_icon.png") no-repeat;
+    width: 43px;
+    height: 42px;
+    display: inline-block;
+}
+
+footer .contacts .column2 .social .google_plus {
+    background: url("images/google_plus_icon.png") no-repeat;
+    width: 43px;
+    height: 42px;
+    display: inline-block;
+}
+
+footer .contacts .column2 .social .youtube {
+    background: url("images/youtube_icon.png") no-repeat;
+    width: 43px;
+    height: 42px;
+    display: inline-block;
+}
+
+footer .copyright {
+    font-size: 12px;
+    color: #445162;
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
